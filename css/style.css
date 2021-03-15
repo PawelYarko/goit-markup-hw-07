@@ -42,7 +42,13 @@
   color: var(--text-color-black);
 }
 
-.link:hover,
+.link:hover {
+  color: var(--accent-color-blue);
+  transition: color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .link:focus {
   color: var(--accent-color-blue);
   transition: color 250ms var(--animation);
@@ -73,7 +79,14 @@
   text-decoration: none;
 }
 
-.button:hover,
+.button:hover {
+  background-color: var(--accent-color-blue);
+  color: var(--bg-color-white);
+  transition: color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .button:focus {
   background-color: var(--accent-color-blue);
   color: var(--bg-color-white);
@@ -82,7 +95,16 @@
   outline: 0px;
 }
 
-.filter__button--shadow:hover,
+.filter__button--shadow:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  transition: color 250ms var(--animation), box-shadow 250ms var(--animation),
+    background-color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .filter__button--shadow:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -503,7 +525,15 @@ img {
   margin-right: 0px;
 }
 
-.team__link:hover,
+.team__link:hover {
+  background-color: var(--accent-color-blue);
+  color: var(--bg-color-white);
+  transition: color 250ms var(--animation),
+    background-color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .team__link:focus {
   background-color: var(--accent-color-blue);
   color: var(--bg-color-white);
@@ -566,7 +596,13 @@ img {
   border-radius: 4px;
 }
 
-.clients__link:hover,
+.clients__link:hover {
+  border-color: var(--accent-color-blue);
+  color: var(--accent-color-blue);
+  transition: border-color 250ms var(--animation), color 250ms var(--animation);
+  outline: 0px;
+}
+
 .clients__link:focus {
   border-color: var(--accent-color-blue);
   color: var(--accent-color-blue);
@@ -665,7 +701,15 @@ img {
   margin-right: 0px;
 }
 
-.footer__link:hover,
+.footer__link:hover {
+  background-color: var(--accent-color-blue);
+  color: var(--bg-color-white);
+  transition: color 250ms var(--animation),
+    background-color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .footer__link:focus {
   background-color: var(--accent-color-blue);
   color: var(--bg-color-white);
@@ -765,7 +809,14 @@ img {
   line-height: 1.6;
 }
 
-.filter__btn:hover,
+.filter__btn:hover {
+  background-color: var(--accent-color-blue);
+  color: var(--bg-color-white);
+  transition: color 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .filter__btn:focus {
   background-color: var(--accent-color-blue);
   color: var(--bg-color-white);
@@ -803,7 +854,13 @@ img {
   border: 1px solid var(--border-grey);
 }
 
-.portfolio__label:hover,
+.portfolio__label:hover {
+  color: var(--accent-color-blue);
+  transition: color 250ms var(--animation);
+  border: 1px solid var(--border-grey);
+  outline: 0px;
+}
+
 .portfolio__label:focus {
   color: var(--accent-color-blue);
   transition: color 250ms var(--animation);
@@ -830,7 +887,15 @@ img {
   color: var(--text-color-black);
 }
 
-.portfolio__link:hover,
+.portfolio__link:hover {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 250ms var(--animation);
+  border: 0px;
+  outline: 0px;
+}
+
 .portfolio__link:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -888,7 +953,11 @@ img {
   color: #000000;
 }
 
-.modal__button:hover,
+.modal__button:hover {
+  color: var(--accent-color-blue);
+  transition: color 250ms var(--animation);
+}
+
 .modal__button:focus {
   color: var(--accent-color-blue);
   transition: color 250ms var(--animation);
